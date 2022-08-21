@@ -3,13 +3,11 @@ import { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-
 function App() {
 
     const [avatar, setAvatar] = useState("");
     const [username, setUsername] = useState("");
     const [respoData, setRespoData] = useState("");
-
 
     async function repoDataUrl() {
         try {
